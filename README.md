@@ -1,12 +1,33 @@
-# React + Vite
+# 📊 CRM Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** of the CRM platform built with **React (Vite)**.  
+Link to backend repository of this project : https://github.com/Rajkaran2004Singh/CRM_BACKEND
+It provides an interface to manage customers, create and deliver campaigns, build customer segments, and use AI-powered tools.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 **Google Authentication** (via backend with Passport.js)  
+- 👥 **Customer Management** (list and manage customer data)  
+- 📢 **Campaigns** (create, schedule, and deliver personalized campaigns)  
+- 📊 **Segments** (rule-based filtering of customers)  
+- 🤖 **AI Tools** (content suggestions / personalization)  
+- 📈 **Dashboard** (overview of campaigns, customers, and communication logs)  
+- 🔄 **Protected Routes** — only accessible when logged in  
+- 🌐 **Netlify Deployment** with `_redirects` file for client-side routing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://react.dev/) (with [Vite](https://vitejs.dev/))
+- [React Router](https://reactrouter.com/)
+- [Axios](https://axios-http.com/) (API requests)
+- [TailwindCSS](https://tailwindcss.com/) (styling)
+- Deployed on [Netlify](https://www.netlify.com/)
+
+---
+
+## 📂 Project Structure
+
