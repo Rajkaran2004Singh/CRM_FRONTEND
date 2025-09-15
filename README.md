@@ -32,37 +32,21 @@ It provides an interface to manage customers, create and deliver campaigns, buil
 ## Project Structure
 ```
 frontend/
-
 ├── public/
-
 │ └── _redirects # Required for Netlify routing
-
 ├── src/
-
 │ ├── components/ # React components
-
 │ │ ├── Navbar.jsx
-
-│ │ ├── AiTools.jsx
-
 │ │ ├── Dashboard.jsx
-
 │ │ ├── Customers.jsx
-
 │ │ ├── Campaigns.jsx
-
+│ │ ├── AiTools.jsx
 │ │ └── Segments.jsx
-
 │ ├── App.jsx # Routes configuration
-
 │ ├── main.jsx # Entry point
-
 │ └── index.css # Global styles
-
 ├── package.json
-
 └── vite.config.js
-
 ```
 
 ---
