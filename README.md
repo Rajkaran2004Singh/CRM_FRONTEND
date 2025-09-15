@@ -43,6 +43,8 @@ frontend/
 
 │ │ ├── Navbar.jsx
 
+│ │ ├── AiTools.jsx
+
 │ │ ├── Dashboard.jsx
 
 │ │ ├── Customers.jsx
@@ -72,8 +74,10 @@ frontend/
    git clone https://github.com/your-username/crm-frontend.git
    cd crm-frontend
 2. Install dependencies
+   ```bash
    npm install
 3. Start developmental run
+   ```bash
    npm run dev
 
 Link to deployed CRM porject : https://crm-platform-rajkaran.netlify.app
